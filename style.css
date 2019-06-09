@@ -1,0 +1,31 @@
+/* navigation bar start */
+.navbar{
+    background-color: #619d09;
+    
+margin-top: 10px;    
+padding: 5px 50px 10px 50px;
+}
+.navlink ul li a{
+    color:#474747;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navlink ul li a:hover{
+    color:#00ff00;
+}
+.active{
+    color:#00ff00;
+}
+.nav-link{
+font-size: 20px;
+}
+/* navigation bar end */
+/* carousal start */
+header .carousel-inner .item{
+    height:100vh;
+}
+.carousel-caption{
+    bottom: 50px;
+}
+/* carousal start */
