@@ -55,4 +55,13 @@ header .carousel-inner .item{
    }
 
 }
+@media only screen and (max-width: 480px) {
+    .heading {
+        font-size: 15px;
+    }
+    .pera-text {
+        font-size: 9px;
+    }
+ 
+ }
 /*-------- carousal start --------*/
