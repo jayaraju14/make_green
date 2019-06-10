@@ -1,8 +1,8 @@
 /*-------- navigation bar start --------*/
 .navbar{
     background-color: #619d09;
-    
-margin-top: 10px;    
+margin-top: 10px; 
+margin-bottom: 10px;   
 padding: 5px 50px 10px 50px;
 }
 .navlink ul li a{
@@ -23,7 +23,7 @@ font-size: 20px;
 
 .navbar-toggler {
     width: 47px;
-    height: 34px;
+    height: 30px;
     /* background-color: #7eb444;
     border: none; */
    
@@ -46,22 +46,57 @@ header .carousel-inner .item{
     bottom: 50px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
    .heading {
        font-size: 20px;
    }
    .pera-text {
        font-size: 10px;
    }
-
+   .carousel-caption{
+       bottom:0px;
+   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 414px) {
     .heading {
         font-size: 15px;
     }
     .pera-text {
         font-size: 9px;
     }
+    .carousel-caption{
+        bottom:0px;
+}
  
  }
+/*-------- carousal start --------*/
+
+/*-------- about start --------*/
+/*-------- about start --------*/
+.about{
+    margin-top: 20px;
+    /* background-image: url(./img/bg/bg1.jpg);
+    background-repeat: no-repeat; */
+    background-color: #1a1a1a;
+
+  }
+  .about-2{
+  padding-top:200px;
+}
+  
+  .about_text{
+    color:#6ab43e;
+    font-size:52px;
+  }
+  .about{
+      font-size: 20px;
+      color: #fff;
+  }
+  .about img{
+      width:1020px;
+  }
+
+
+
+/*-------- about end --------*/
 /*-------- carousal start --------*/
