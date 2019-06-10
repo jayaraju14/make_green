@@ -1,4 +1,4 @@
-/* navigation bar start */
+/*-------- navigation bar start --------*/
 .navbar{
     background-color: #619d09;
     
@@ -20,12 +20,39 @@ padding: 5px 50px 10px 50px;
 .nav-link{
 font-size: 20px;
 }
-/* navigation bar end */
-/* carousal start */
+
+.navbar-toggler {
+    width: 47px;
+    height: 34px;
+    /* background-color: #7eb444;
+    border: none; */
+   
+}
+
+.navbar-toggler .line {
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+/*-------- navigation bar end --------*/
+/*-------- carousal start --------*/
 header .carousel-inner .item{
     height:100vh;
 }
 .carousel-caption{
     bottom: 50px;
 }
-/* carousal start */
+
+@media only screen and (max-width: 640px) {
+   .heading {
+       font-size: 20px;
+   }
+   .pera-text {
+       font-size: 10px;
+   }
+
+}
+/*-------- carousal start --------*/
