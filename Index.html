@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome</title>
             <!--Css links-->
@@ -15,6 +15,7 @@
             <link rel="stylesheet" href="css/meanmenu.min.css">
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="css/animate.min.css">
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 
@@ -26,7 +27,7 @@
 <!-- Navbar start-->
         <section>
             <div class="container-floud">
-                    <nav class="navbar navbar-default fixed-top bg-white  navbar-expand-sm">
+                    <nav class="navbar navbar-default fixed-top bg-white navbar-expand-sm">
                             <a class="navbar-brand" href="#">Logo</a>
                             <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenu">
                                 <!--<span class="toggler-icon"></span>-->
@@ -90,7 +91,7 @@
     <div class="container-floud" id="about">
         <div class="row about">
         <div class="col-md-6 col-lg-6">
-            <img class="animated fadeInRight img img-thumbnail" src="https://via.placeholder.com/660x445">
+            <img class="animated fadeInRight img " src="https://via.placeholder.com/660x445">
         </div>
         <div class="about-2 text-center col-md-6 col-lg-6">
             <h1 class="animated fadeIn delay-1s text-center about_text">About us</h1>
@@ -104,99 +105,69 @@
 
 <!-- services start-->
 <section>
-<div class="container" id="services">
-    <h1 class="service-header text-center" >Services we provide</h1>
-   <div class="service-boxset">
-    <div class="row">
-        <div class="col-md-3 col-sm-6 ">
-            <div class="service-box">
-                <div class="service-icon yellow">
-                    <div class="front-content">
-                        <i class="fa fa-trophy"></i>
-                        <h3>Service 1</h3>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <h3>Service 1</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia dignissimos nobis impedit, ipsa inventore autem molestias animi vel asperiores alias?</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 ">
-            <div class="service-box">
-                <div class="service-icon orange">
-                    <div class="front-content">
-                        <i class="fa fa-anchor"></i>
-                        <h3>Service 2</h3>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <h3>Service 2</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti non ipsum illum deserunt, hic voluptate ea. Labore deserunt enim dolore!</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="service-box ">
-                <div class="service-icon red">
-                    <div class="front-content">
-                        <i class="fa fa-trophy"></i>
-                        <h3>Service 3</h3>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <h3>Service 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facere ea vero non commodi, totam voluptate mollitia. Qui, dolorum temporibus.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="service-box">
-                <div class="service-icon grey">
-                    <div class="front-content">
-                        <i class="fa fa-paper-plane-o"></i>
-                        <h3>Service 4</h3>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <h3>Service 4</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae temporibus consequuntur autem deleniti, voluptatum vel optio nobis porro laudantium nemo?</p>
-                </div>
-            </div>
-        </div>
-      <div class="col-md-3 col-sm-6">
-            <div class="service-box">
-                <div class="service-icon blue">
-                    <div class="front-content">
-                        <i class="fa fa-paper-plane-o"></i>
-                        <h3>Service 5</h3>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <h3>Service 5</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente aut necessitatibus tempora alias illo beatae accusantium impedit ex nemo deleniti.</p>
-                </div>
-            </div>
-        </div>
-      <div class="col-md-3 col-sm-6"></div>
-      <div class="col-md-3 col-sm-6"></div>
-      <div class="col-md-3 col-sm-6"></div>
-    </div>
-   </div>
-</div>
+<div id="our-services">
+		<div class="container animated">
+			<div class="row">
+				<div class="text-center service-header" data-aos="zoom-in">
+					<h2>Our Services</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aliquid adipisci sequi maiores . Ipsam aliquid adipisci sequi maiores .</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="services animated" data-aos="fade-left">
+						<div class="desc">
+							<h3>Diagnostic</h3>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, esse nisi. Odio sapiente repellendus ullam.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services" data-aos="fade">
+						<div class="desc">
+							<h3>Restorative Solution</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni reiciendis iure itaque similique quas quod!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services" data-aos="fade-right">
+						<div class="desc">
+							<h3>Additional Treatment</h3>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum non amet assumenda animi quas nulla sunt dolorum adipisci ex officiis!</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="services" data-aos="fade-left">
+						<div class="desc">
+							<h3>Heart Surgery</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum illo nobis autem. Veniam nam iure ab, deleniti perspiciatis cupiditate culpa.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services" data-aos="fadeOut">
+						<div class="desc">
+							<h3>General Treatment</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quia. Delectus similique doloribus ipsa sit ipsum ratione laudantium aperiam ducimus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services" data-aos="fade-right">
+						<div class="desc">
+							<h3>Medical Treatment</h3>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus accusantium veniam id sequi eaque! Harum illum quod sint minus aut!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 <section>
    <!--Footer start-->
-
-    <section>
-        <div class="container-floud">        
-            <div class="contact-box">
-                <div class="row">
-               
-                </div>
-                </div>
-        </div> 
-    </footer>
-
 
 <!--Footer end-->
     <!-- all js here -->
@@ -205,5 +176,9 @@
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.meanmenu.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
