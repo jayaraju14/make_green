@@ -1,3 +1,6 @@
+body,html{
+    overflow-x: hidden;
+}
 .header{
   height: 50px;
 }
@@ -65,6 +68,9 @@ header .carousel-inner .item{
     #our-services{
         padding: 3em 0;
     }
+    .carousel{
+        margin-top:50px;
+    }
 }
 @media only screen and (max-width: 414px) {
     .heading{
@@ -80,9 +86,11 @@ header .carousel-inner .item{
      bottom: 50px;
  }
  .about img{
-     width:30px;
+     width:fit-content;
  }
- 
+ .carousel{
+     margin-top:50px;
+ }
  }
 /*-------- carousal End --------*/
 
@@ -127,7 +135,6 @@ header .carousel-inner .item{
 }
 .service-header p{
     color:#888888;
-    padding-left:50px;
 }
 .service-header:before {
     content: "";
@@ -173,7 +180,4 @@ header .carousel-inner .item{
     border-bottom: 2px solid #55a513;
 }
 /*-------- Services end --------*/
-
-
-
 
