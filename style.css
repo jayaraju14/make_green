@@ -277,9 +277,9 @@ font-size: 20px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.5);
 } 
-.social-container .col {
+/* .social-container .col {
     border: 1px solid rgba(255, 255, 255, 0.1);
-}
+} */
 .nav-list li a:before {
     content: "\f14f";
     font: 400 21px/1 "Material Design Icons";
@@ -297,3 +297,55 @@ font-size: 20px;
     height:250px;
     width: 250px;
 }
+
+/* footer social icons */
+
+.social-container a.icoRss:hover {
+    background-color: #F56505;
+  }
+  
+  .social-container a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-container a.icoTwitter:hover {
+    background-color: #33ccff;
+  }
+  
+  .social-container a.icoYoutube:hover {
+    background-color: #BD3518;
+  }
+  
+  .social-container a.icoVimeo:hover {
+    background-color: #0590B8;
+  }
+  
+  .social-container a.icoInstagram:hover {
+    background-color: #007bb7;
+  }
+  
+ 
+  
+ 
+  
+  .social-circle div a:hover span,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle span {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
